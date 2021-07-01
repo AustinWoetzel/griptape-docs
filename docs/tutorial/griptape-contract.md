@@ -2,11 +2,11 @@
 
 ## State Management and the Blockchain
 
-For most dApps on Secret Network, Secret Contracts are the core. We took that to heart and built Griptape in a way that, as best as is possible, tries to bring the contract to the front-end. That way the front end developer can code as if they were communicating with the smart contract directly in their web app, leaving all the connecting back and forth to the framework. 
+For most dApps on Secret Network, Secret Contracts are the core. We took that to heart and built Griptape in a way that, as best as is possible, tries to bring the contract to the front-end. That way the front-end developer can code as if they were communicating with the smart contract directly in their web app, leaving all the connecting back and forth to the framework. 
 
 At the same time we also needed to figure out the best way to manage complex application state reactively to minimize back and forth with the chain and provide a modern ui feel without constant site refreshes.
 
-What we realized is that for the most part we are doing everything we can to make the contract state on the chain and the state managenent layer in the app sync. And if that is the goal, why not make the contract state and the application state one and the same.
+What we realized is that for the most part we are doing everything we can to make the contract state on the chain and the state management layer in the app sync. And if that is the goal, why not make the contract state and the application state one and the same.
 
 ## Griptape Contract State
 
