@@ -25,6 +25,6 @@ Formatting addresses and viewing keys is very common in Secret Network DApps. `b
 ```js
 import { bech32 } from '@stakeordie/griptape.js'
 const address = 'secret1jajwgdsfv8e88utlgxjndlvcm8aldyn3ecsk72'
-bech32(walletAddress, 16) // secret1j...n3ecsk72
-bech32(walletAddress, 24) // secret1jajwg...aldyn3ecsk72
+bech32(address, 16) // secret1j...n3ecsk72
+bech32(address, 24) // secret1jajwg...aldyn3ecsk72
 ```
